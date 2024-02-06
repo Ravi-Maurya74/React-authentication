@@ -1,7 +1,8 @@
 export function getAuthToken() {
-  return localStorage.getItem('token');
+  return localStorage.getItem("token");
 }
 
-export function tokenLoader(){
-    return getAuthToken();
+export function tokenLoader() {
+  console.log(getAuthToken());
+  return getAuthToken();
 }
